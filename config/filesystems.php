@@ -64,14 +64,14 @@ return [
         'qiniu' => [
             'driver'  => 'qiniu',
             'domains' => [
-                //上面图片中的默认七牛域名
-                'default'   => '7xsgy7.com1.z0.glb.clouddn.com',
+                //上面图片中的默认七牛域名,这里有 “xxxx” 标志的是最少需要配置的
+                'default'   => 'xxxx',
                 'https'     => '',          //没有https不用写
                 'custom'    => '',          //没有自定义域名可以不用写
              ],
-            'access_key'=> 'le5qZii2o6iez9brj-_KoFUuN0UKir15QS28NzBJ',  //密钥中的AK
-            'secret_key'=> 'zKrTVwyLbsNfHuClvn8hk33UT-HZVEzHiQTFn_Eu',  //密钥中的SK
-            'bucket'    => 'iwanli',  //Bucket名字是你创建存储对象的名称
+            'access_key'=> 'xxxx',  //密钥中的AK
+            'secret_key'=> 'xxxx',  //密钥中的SK
+            'bucket'    => 'xxxx',  //Bucket名字是你创建存储对象的名称
             'notify_url'=> '',  //持久化处理回调地址如果你不需要的话可以不用写
         ],
 
